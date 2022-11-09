@@ -80,7 +80,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 main {
@@ -111,6 +110,11 @@ picture {
 }
 
 @media screen and (min-width: 52.25em) {
+
+    body {
+        height: 100vh;
+    }
+    
     main {
         display: flex;
         flex-direction: row-reverse;
